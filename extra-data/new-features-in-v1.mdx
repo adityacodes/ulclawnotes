@@ -177,7 +177,7 @@ Configure `siteMetadata.js` with the settings that correspond with the desired a
 ```js
 analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
-    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: '', // e.g. ulclawnotes.vercel.app
     simpleAnalytics: false, // true or false
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
@@ -280,7 +280,7 @@ summary: 'My first post'
 authors: ['default', 'sparrowhawk']
 ```
 
-A demo of a multiple authors post is shown in [Introducing Tailwind Nextjs Starter Blog post](/blog/introducing-tailwind-nextjs-starter-blog).
+A demo of a multiple authors post is shown in [Introducing Tailwind Nextjs Starter Blog post](/blog/introducing-ulclawnotes).
 
 ## Copy button for code blocks
 
@@ -289,7 +289,7 @@ The component is passed to `MDXComponents` and modifies all `<pre>` blocks.
 
 ## Line highlighting and line numbers
 
-Line highlighting and line numbers are now supported out of the box thanks to the new [rehype-prism-plus plugin](https://github.com/timlrx/rehype-prism-plus)
+Line highlighting and line numbers are now supported out of the box thanks to the new [rehype-prism-plus plugin](https://github.com/adityacodes/rehype-prism-plus)
 
 The following javascript code block:
 
@@ -396,7 +396,7 @@ Multiple citations [see @Nash1950; @Nash1951, page 50]
 A bibliography will be inserted at the end of the document, but this can be overwritten by specifying a `[^Ref]` tag at the intended location.
 The plugin uses APA citation formation, but also supports the following CSLs, 'apa', 'vancouver', 'harvard1', 'chicago', 'mla', or a path to a user-specified CSL file.
 
-See [rehype-citation readme](https://github.com/timlrx/rehype-citation) for more information on the configuration options.
+See [rehype-citation readme](https://github.com/adityacodes/rehype-citation) for more information on the configuration options.
 
 ## Upgrade guide
 
@@ -410,12 +410,12 @@ Nonetheless, if you want to do so and have not changed much of the template, you
 Another alternative would be to pull the latest template version with the following code:
 
 ```bash
-git remote add template git@github.com:timlrx/tailwind-nextjs-starter-blog.git
+git remote add template git@github.com:adityacodes/ulclawnotes.git
 git pull template v1 --allow-unrelated-histories
 rm -rf node_modules
 ```
 
-You can see an example of such a migration in this [commit](https://github.com/timlrx/timlrx.com/commit/bba1c185384fd6d5cdaac15abf802fdcff027286) for my personal blog.
+You can see an example of such a migration in this [commit](https://github.com/adityacodes/adityacodes.com/commit/bba1c185384fd6d5cdaac15abf802fdcff027286) for my personal blog.
 
 v1 also uses `feed.xml` rather than `index.xml`, to avoid some build issues with Vercel. If you are migrating you should add a redirect to `next.config.js` like so:
 

@@ -19,11 +19,27 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+
+      {/* <div className="flex flex-col items-center my-6 xl:flex-row gap-x-12 xl:mb-12"> */}
+      <div className="">
+        <div className="pt-6">
+          <h1 className="pb-6 text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
+            Hi, I’m ULC Unoffical
+          </h1>
+          <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
+            Welcome to my blog - Thoughts from a wandering mind.
+            {/* <a href="/projects">side projects</a>
+                and <a href="/blog">blogging</a> 
+                about them.*/}{' '}
+            Have a good read!
+          </h2>
+        </div>
+      </div>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14">
             Latest
-          </h1>
+          </h3>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>

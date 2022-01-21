@@ -2,27 +2,27 @@
 
 # Tailwind Nextjs Starter Blog
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/stargazers/)
-[![GitHub forks](https://img.shields.io/github/forks/timlrx/tailwind-nextjs-starter-blog?style=social)](https://GitHub.com/timlrx/tailwind-nextjs-starter-blog/network/)
-[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Ftimlrxx)](https://twitter.com/timlrxx)
-[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=https://github.com/sponsors/timlrx)](https://github.com/sponsors/timlrx)
+[![GitHub Repo stars](https://img.shields.io/github/stars/adityacodes/ulclawnotes?style=social)](https://GitHub.com/adityacodes/ulclawnotes/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/adityacodes/ulclawnotes?style=social)](https://GitHub.com/adityacodes/ulclawnotes/network/)
+[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fadityacodesx)](https://twitter.com/adityacodesx)
+[![Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&link=https://github.com/sponsors/adityacodes)](https://github.com/sponsors/adityacodes)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/timlrx/tailwind-nextjs-starter-blog)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/adityacodes/ulclawnotes)
 
 This is a [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) blogging starter template. Probably the most feature-rich Next.js markdown blogging template out there. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.
 
 Check out the documentation below to get started.
 
-Facing issues? Check the [FAQ page](https://github.com/timlrx/tailwind-nextjs-starter-blog/wiki) and do a search on past issues. Feel free to open a new issue if none has been posted previously.
+Facing issues? Check the [FAQ page](https://github.com/adityacodes/ulclawnotes/wiki) and do a search on past issues. Feel free to open a new issue if none has been posted previously.
 
 Feature request? Check the past discussions to see if it has been brought up previously. Otherwise, feel free to start a new discussion thread. All ideas are welcomed!
 
 ## Examples
 
-- [Demo Blog](https://tailwind-nextjs-starter-blog.vercel.app/) - this repo
-- [My personal blog](https://www.timlrx.com) - modified to auto-generate blog posts with dates
+- [Demo Blog](https://ulclawnotes.vercel.app/) - this repo
+- [My personal blog](https://www.adityacodes.com) - modified to auto-generate blog posts with dates
 - [Aloisdg's cookbook](https://tambouille.vercel.app/) - with pictures and recipes!
-- [GautierArcin's demo with next translate](https://tailwind-nextjs-starter-blog-seven.vercel.app/) - includes translation of mdx posts, [source code](https://github.com/GautierArcin/tailwind-nextjs-starter-blog/tree/demo/next-translate)
+- [GautierArcin's demo with next translate](https://ulclawnotes-seven.vercel.app/) - includes translation of mdx posts, [source code](https://github.com/GautierArcin/ulclawnotes/tree/demo/next-translate)
 - [David Levai's digital garden](https://davidlevai.com/) - customized design and added email subscriptions
 - [Thinh's Corner](https://thinhcorner.com/) - [customized layout](https://github.com/Th1nhNg0/th1nhng0.vercel.app/blob/5e73a420828d82f01e7147512a2c3273c4ec19f8/layouts/PostLayout.js) with sticky side table of contents
 - [Leo's Blog](https://leohuynh.dev) - Tuan Anh Huynh's personal site. Add Snippets Page, Author Profile Card, Image Lightbox, ...
@@ -30,7 +30,7 @@ Feature request? Check the past discussions to see if it has been brought up pre
 - [fiqrychoerudin.dev](https://www.fiqrychoerudin.dev/) - simple portfolio.
 - [irvin.dev](https://www.irvin.dev/) - Irvin Lin's personal site. Added YouTube embedding.
 - [the all JavaScript Blog](https://the-all-javascript-blog.vercel.app/) - a JavaScript enlightenment blog uses this
-- [KirillSo.com](https://www.kirillso.com/) - Personal blog & website. 
+- [KirillSo.com](https://www.kirillso.com/) - Personal blog & website.
 
 Using the template? Feel free to create a PR and add your blog to this list.
 
@@ -49,9 +49,9 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 - Light and dark theme
 - Supports [plausible](https://plausible.io/), [simple analytics](https://simpleanalytics.com/) and google analytics
 - [MDX - write JSX in markdown documents!](https://mdxjs.com/)
-- Server-side syntax highlighting with line numbers and line highlighting via [rehype-prism-plus](https://github.com/timlrx/rehype-prism-plus)
+- Server-side syntax highlighting with line numbers and line highlighting via [rehype-prism-plus](https://github.com/adityacodes/rehype-prism-plus)
 - Math display supported via [KaTeX](https://katex.org/)
-- Citation and bibliography support via [rehype-citation](https://github.com/timlrx/rehype-citation)
+- Citation and bibliography support via [rehype-citation](https://github.com/adityacodes/rehype-citation)
 - Automatic image optimization via [next/image](https://nextjs.org/docs/basic-features/image-optimization)
 - Flexible data retrieval with [mdx-bundler](https://github.com/kentcdodds/mdx-bundler)
 - Support for tags - each unique tag will be its own page
@@ -67,25 +67,25 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 
 ## Sample posts
 
-- [A markdown guide](https://tailwind-nextjs-starter-blog.vercel.app/blog/github-markdown-guide)
-- [Learn more about images in Next.js](https://tailwind-nextjs-starter-blog.vercel.app/blog/guide-to-using-images-in-nextjs)
-- [A tour of math typesetting](https://tailwind-nextjs-starter-blog.vercel.app/blog/deriving-ols-estimator)
-- [Simple MDX image grid](https://tailwind-nextjs-starter-blog.vercel.app/blog/pictures-of-canada)
-- [Example of long prose](https://tailwind-nextjs-starter-blog.vercel.app/blog/the-time-machine)
-- [Example of Nested Route Post](https://tailwind-nextjs-starter-blog.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing)
+- [A markdown guide](https://ulclawnotes.vercel.app/blog/github-markdown-guide)
+- [Learn more about images in Next.js](https://ulclawnotes.vercel.app/blog/guide-to-using-images-in-nextjs)
+- [A tour of math typesetting](https://ulclawnotes.vercel.app/blog/deriving-ols-estimator)
+- [Simple MDX image grid](https://ulclawnotes.vercel.app/blog/pictures-of-canada)
+- [Example of long prose](https://ulclawnotes.vercel.app/blog/the-time-machine)
+- [Example of Nested Route Post](https://ulclawnotes.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing)
 
 ## Quick Start Guide
 
 1. JS (official support)
 
 ```bash
-npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git
+npx degit https://github.com/adityacodes/ulclawnotes.git
 ```
 
 or with TypeScript (community support)
 
 ```bash
-npx degit timlrx/tailwind-nextjs-starter-blog#typescript
+npx degit adityacodes/ulclawnotes#typescript
 ```
 
 2. Personalize `siteMetadata.js` (site related information)
@@ -203,8 +203,8 @@ The API routes used in the newsletter component cannot be used in a static site 
 
 ## Support
 
-Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).
+Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/adityacodes).
 
 ## Licence
 
-[MIT](https://github.com/timlrx/tailwind-nextjs-starter-blog/blob/master/LICENSE) © [Timothy Lin](https://www.timrlx.com)
+[MIT](https://github.com/adityacodes/ulclawnotes/blob/master/LICENSE) © [Timothy Lin](https://www.timrlx.com)
