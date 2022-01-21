@@ -4,7 +4,7 @@ avatar: /static/images/avatar.png
 occupation: Students of Law
 company: University Law College
 email: N/A
-twitter: https://twitter.com/Twitter
+twitter: #
 linkedin: https://www.linkedin.com
 github: https://github.com
 ---
