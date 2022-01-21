@@ -99,7 +99,7 @@ Here's the full TOC rendered in a disclosure element.
 
 ## Layouts
 
-You can map mdx blog content to layout components by configuring the frontmatter field. For example, this post is written with the new `PostSimple` layout!
+You can map mdx note content to layout components by configuring the frontmatter field. For example, this post is written with the new `PostSimple` layout!
 
 ### Adding new templates
 
@@ -126,7 +126,7 @@ export default function ExampleLayout({ frontMatter, children }) {
 }
 ```
 
-### Configuring a blog post frontmatter
+### Configuring a note post frontmatter
 
 Use the `layout` frontmatter field to specify the template you want to map the markdown post to. Here's how the frontmatter of this post looks like:
 
@@ -136,13 +136,13 @@ title: 'New features in v1'
 date: '2021-05-26   '
 tags: ['next-js', 'tailwind', 'guide']
 draft: false
-summary: 'Introducing the new layout features - you can map mdx blog content to layout components by configuring the frontmatter field'
+summary: 'Introducing the new layout features - you can map mdx note content to layout components by configuring the frontmatter field'
 layout: PostSimple
 ---
 ```
 
 You can configure the default layout in the respective page section by modifying the `DEFAULT_LAYOUT` variable.
-The `DEFAULT_LAYOUT` for blog posts page is set to `PostLayout`.
+The `DEFAULT_LAYOUT` for note posts page is set to `PostLayout`.
 
 ### Extend
 
@@ -187,7 +187,7 @@ Custom events are also supported. You can import the `logEvent` function from `@
 triggering certain events of interest. _Note_: Additional configuration might be required depending on the analytics provider, please check their official
 documentation for more information.
 
-## Blog comments system
+## Note comments system
 
 We have also added support for [giscus](https://github.com/laymonage/giscus), [utterances](https://github.com/utterance/utterances) or disqus.
 To enable, simply configure `siteMetadata.js` comments property with the desired provider and settings as specified in the config file.
@@ -266,9 +266,9 @@ const authorDetails = await getFileBySlug('authors', ['default'])
 
 This is rendered in the `AuthorLayout` template.
 
-### Multiple authors in blog post
+### Multiple authors in note post
 
-The frontmatter of a blog post accepts an optional `authors` array field. If no field is specified, it is assumed that the default author is used. Simply pass in an array of authors to render multiple authors associated with a post.
+The frontmatter of a note post accepts an optional `authors` array field. If no field is specified, it is assumed that the default author is used. Simply pass in an array of authors to render multiple authors associated with a post.
 
 For example, the following frontmatter will display the authors given by `data/authors/default.md` and `data/authors/sparrowhawk.md`
 
@@ -280,7 +280,7 @@ summary: 'My first post'
 authors: ['default', 'sparrowhawk']
 ```
 
-A demo of a multiple authors post is shown in [Introducing Tailwind Nextjs Starter Blog post](/blog/introducing-ulclawnotes).
+A demo of a multiple authors post is shown in [Introducing Tailwind Nextjs Starter Note post](/note/introducing-ulclawnotes).
 
 ## Copy button for code blocks
 
@@ -353,14 +353,14 @@ Introduced in v1.1.3, the newsletter component gives you an easy way to build an
 To use it, specify the provider which you are using in the config file and add the necessary environment variables to the `.env` file.
 For more information on the required variables, check out `.env.sample.`
 
-Two components are exported, a default `NewsletterForm` and a `BlogNewsletterForm` component, which is also passed in as an MDX component
-and can be used in a blog post:
+Two components are exported, a default `NewsletterForm` and a `NoteNewsletterForm` component, which is also passed in as an MDX component
+and can be used in a note post:
 
 ```jsx
-<BlogNewsletterForm title="Like what you are reading?" />
+<NoteNewsletterForm title="Like what you are reading?" />
 ```
 
-<BlogNewsletterForm title="Like what you are reading?" />
+<NoteNewsletterForm title="Like what you are reading?" />
 
 The component relies on nextjs's [API routes](https://nextjs.org/docs/api-routes/introduction) which requires a server-side instance of nextjs to be setup
 and is not compatible with a 100% static site export. Users should either self-host or use a compatible platform like Vercel or Netlify which supports this functionality.
@@ -403,9 +403,9 @@ See [rehype-citation readme](https://github.com/adityacodes/rehype-citation) for
 There are significant portions of the code that has been changed from v0 to v1 including support for layouts and a new mdx engine.
 
 There's also no real reason to change if the previous one serves your needs and it might be easier to copy
-the component changes you are interested in to your existing blog rather than migrating everything over.
+the component changes you are interested in to your existing note rather than migrating everything over.
 
-Nonetheless, if you want to do so and have not changed much of the template, you could clone the new version and copy over the blog post over to the new template.
+Nonetheless, if you want to do so and have not changed much of the template, you could clone the new version and copy over the note post over to the new template.
 
 Another alternative would be to pull the latest template version with the following code:
 
@@ -415,7 +415,7 @@ git pull template v1 --allow-unrelated-histories
 rm -rf node_modules
 ```
 
-You can see an example of such a migration in this [commit](https://github.com/adityacodes/adityacodes.com/commit/bba1c185384fd6d5cdaac15abf802fdcff027286) for my personal blog.
+You can see an example of such a migration in this [commit](https://github.com/adityacodes/adityacodes.com/commit/bba1c185384fd6d5cdaac15abf802fdcff027286) for my personal note.
 
 v1 also uses `feed.xml` rather than `index.xml`, to avoid some build issues with Vercel. If you are migrating you should add a redirect to `next.config.js` like so:
 

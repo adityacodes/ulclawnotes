@@ -1,6 +1,6 @@
 ![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
 
-# Tailwind Nextjs Starter Blog
+# Tailwind Nextjs Starter Note
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/adityacodes/ulclawnotes?style=social)](https://GitHub.com/adityacodes/ulclawnotes/stargazers/)
 [![GitHub forks](https://img.shields.io/github/forks/adityacodes/ulclawnotes?style=social)](https://GitHub.com/adityacodes/ulclawnotes/network/)
@@ -9,7 +9,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/adityacodes/ulclawnotes)
 
-This is a [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) blogging starter template. Probably the most feature-rich Next.js markdown blogging template out there. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.
+This is a [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) noteging starter template. Probably the most feature-rich Next.js markdown noteging template out there. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual notes.
 
 Check out the documentation below to get started.
 
@@ -19,30 +19,30 @@ Feature request? Check the past discussions to see if it has been brought up pre
 
 ## Examples
 
-- [Demo Blog](https://ulclawnotes.vercel.app/) - this repo
-- [My personal blog](https://www.adityacodes.com) - modified to auto-generate blog posts with dates
+- [Demo Note](https://ulclawnotes.vercel.app/) - this repo
+- [My personal note](https://www.adityacodes.com) - modified to auto-generate note posts with dates
 - [Aloisdg's cookbook](https://tambouille.vercel.app/) - with pictures and recipes!
 - [GautierArcin's demo with next translate](https://ulclawnotes-seven.vercel.app/) - includes translation of mdx posts, [source code](https://github.com/GautierArcin/ulclawnotes/tree/demo/next-translate)
 - [David Levai's digital garden](https://davidlevai.com/) - customized design and added email subscriptions
 - [Thinh's Corner](https://thinhcorner.com/) - [customized layout](https://github.com/Th1nhNg0/th1nhng0.vercel.app/blob/5e73a420828d82f01e7147512a2c3273c4ec19f8/layouts/PostLayout.js) with sticky side table of contents
-- [Leo's Blog](https://leohuynh.dev) - Tuan Anh Huynh's personal site. Add Snippets Page, Author Profile Card, Image Lightbox, ...
+- [Leo's Note](https://leohuynh.dev) - Tuan Anh Huynh's personal site. Add Snippets Page, Author Profile Card, Image Lightbox, ...
 - [thvu.dev](https://thvu.dev) - Added `mdx-embed`, view count, reading minutes and more.
 - [fiqrychoerudin.dev](https://www.fiqrychoerudin.dev/) - simple portfolio.
 - [irvin.dev](https://www.irvin.dev/) - Irvin Lin's personal site. Added YouTube embedding.
-- [the all JavaScript Blog](https://the-all-javascript-blog.vercel.app/) - a JavaScript enlightenment blog uses this
-- [KirillSo.com](https://www.kirillso.com/) - Personal blog & website.
+- [the all JavaScript Note](https://the-all-javascript-note.vercel.app/) - a JavaScript enlightenment note uses this
+- [KirillSo.com](https://www.kirillso.com/) - Personal note & website.
 
-Using the template? Feel free to create a PR and add your blog to this list.
+Using the template? Feel free to create a PR and add your note to this list.
 
 ## Motivation
 
-I wanted to port my existing blog to Nextjs and Tailwind CSS but there was no easy out of the box template to use so I decided to create one. Design is adapted from [Tailwindlabs blog](https://github.com/tailwindlabs/blog.tailwindcss.com).
+I wanted to port my existing note to Nextjs and Tailwind CSS but there was no easy out of the box template to use so I decided to create one. Design is adapted from [Tailwindlabs note](https://github.com/tailwindlabs/note.tailwindcss.com).
 
-I wanted it to be nearly as feature-rich as popular blogging templates like [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) and [Hugo Academic](https://github.com/wowchemy/wowchemy-hugo-modules) but with the best of React's ecosystem and current web development's best practices.
+I wanted it to be nearly as feature-rich as popular noteging templates like [beautiful-jekyll](https://github.com/daattali/beautiful-jekyll) and [Hugo Academic](https://github.com/wowchemy/wowchemy-hugo-modules) but with the best of React's ecosystem and current web development's best practices.
 
 ## Features
 
-- Easy styling customization with [Tailwind 3.0](https://tailwindcss.com/blog/tailwindcss-v3) and primary color attribute
+- Easy styling customization with [Tailwind 3.0](https://tailwindcss.com/note/tailwindcss-v3) and primary color attribute
 - Near perfect lighthouse score - [Lighthouse report](https://www.webpagetest.org/result/210111_DiC1_08f3670c3430bf4a9b76fc3b927716c5/)
 - Lightweight, 45kB first load JS, uses Preact in production build
 - Mobile-friendly view
@@ -56,9 +56,9 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 - Flexible data retrieval with [mdx-bundler](https://github.com/kentcdodds/mdx-bundler)
 - Support for tags - each unique tag will be its own page
 - Support for multiple authors
-- Blog templates
+- Note templates
 - TOC component
-- Support for nested routing of blog posts
+- Support for nested routing of note posts
 - Newsletter component with support for mailchimp, buttondown, convertkit and klaviyo
 - Supports [giscus](https://github.com/laymonage/giscus), [utterances](https://github.com/utterance/utterances) or disqus
 - Projects page
@@ -67,12 +67,12 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 
 ## Sample posts
 
-- [A markdown guide](https://ulclawnotes.vercel.app/blog/github-markdown-guide)
-- [Learn more about images in Next.js](https://ulclawnotes.vercel.app/blog/guide-to-using-images-in-nextjs)
-- [A tour of math typesetting](https://ulclawnotes.vercel.app/blog/deriving-ols-estimator)
-- [Simple MDX image grid](https://ulclawnotes.vercel.app/blog/pictures-of-canada)
-- [Example of long prose](https://ulclawnotes.vercel.app/blog/the-time-machine)
-- [Example of Nested Route Post](https://ulclawnotes.vercel.app/blog/nested-route/introducing-multi-part-posts-with-nested-routing)
+- [A markdown guide](https://ulclawnotes.vercel.app/note/github-markdown-guide)
+- [Learn more about images in Next.js](https://ulclawnotes.vercel.app/note/guide-to-using-images-in-nextjs)
+- [A tour of math typesetting](https://ulclawnotes.vercel.app/note/deriving-ols-estimator)
+- [Simple MDX image grid](https://ulclawnotes.vercel.app/note/pictures-of-canada)
+- [Example of long prose](https://ulclawnotes.vercel.app/note/the-time-machine)
+- [Example of Nested Route Post](https://ulclawnotes.vercel.app/note/nested-route/introducing-multi-part-posts-with-nested-routing)
 
 ## Quick Start Guide
 
@@ -92,7 +92,7 @@ npx degit adityacodes/ulclawnotes#typescript
 3. Personalize `authors/default.md` (main author)
 4. Modify `projectsData.js`
 5. Modify `headerNavLinks.js` to customize navigation links
-6. Add blog posts
+6. Add note posts
 7. Deploy on Vercel
 
 ## Installation
@@ -131,7 +131,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 `data/logo.svg` - replace with your own logo.
 
-`data/blog` - replace with your own blog posts.
+`data/notes` - replace with your own note posts.
 
 `public/static` - store assets such as images and favicons.
 
@@ -173,12 +173,12 @@ Here's an example of a post's frontmatter:
 
 ```
 ---
-title: 'Introducing Tailwind Nexjs Starter Blog'
+title: 'Introducing Tailwind Nexjs Starter Note'
 date: '2021-01-12'
 lastmod: '2021-01-18'
 tags: ['next-js', 'tailwind', 'guide']
 draft: false
-summary: 'Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.'
+summary: 'Looking for a performant, out of the box template, with all the best in web technology to support your noteging needs? Checkout the Tailwind Nextjs Starter Note template.'
 images: ['/static/images/canada/mountains.jpg', '/static/images/canada/toronto.jpg']
 authors: ['default', 'sparrowhawk']
 layout: PostLayout
@@ -203,7 +203,7 @@ The API routes used in the newsletter component cannot be used in a static site 
 
 ## Support
 
-Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/adityacodes).
+Using the template? Support this effort by giving a star on GitHub, sharing your own note and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/adityacodes).
 
 ## Licence
 

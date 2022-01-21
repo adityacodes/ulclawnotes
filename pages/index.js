@@ -10,7 +10,7 @@ import NewsletterForm from '@/components/NewsletterForm'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
-  const posts = await getAllFilesFrontMatter('blog')
+  const posts = await getAllFilesFrontMatter('notes')
 
   return { props: { posts } }
 }
@@ -19,19 +19,16 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-
-      {/* <div className="flex flex-col items-center my-6 xl:flex-row gap-x-12 xl:mb-12"> */}
       <div className="">
         <div className="pt-6">
-          <h1 className="pb-6 text-4xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
-            Hi, I’m ULC Unoffical
+          <h1 className="pb-6 text-2xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">
+            Hi, I’m ULC Unoffical !
           </h1>
-          <h2 className="text-lg prose text-gray-600 dark:text-gray-400">
-            Welcome to my blog - Thoughts from a wandering mind.
-            {/* <a href="/projects">side projects</a>
-                and <a href="/blog">blogging</a> 
-                about them.*/}{' '}
-            Have a good read!
+          <h2 className="text-lg text-gray-600 dark:text-gray-400">
+            Welcome to the first unofficial notes web app of{' '}
+            <strong>University Law College, Bhubaneswar.</strong>
+            The purpose of creating this web app is to have a storehouse of all notes for semesters.
+            Hope you like it! Have a good read!
           </h2>
         </div>
       </div>
@@ -40,8 +37,12 @@ export default function Home({ posts }) {
           <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14">
             Latest
           </h3>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
+          </p> */}
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+            While the site is under construction please use the <strong>Subject Tags</strong> in the
+            menu to find the appropriate chapter.
           </p>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -63,7 +64,7 @@ export default function Home({ posts }) {
                         <div>
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
-                              href={`/blog/${slug}`}
+                              href={`/notes/${slug}`}
                               className="text-gray-900 dark:text-gray-100"
                             >
                               {title}
@@ -81,7 +82,7 @@ export default function Home({ posts }) {
                       </div>
                       <div className="text-base font-medium leading-6">
                         <Link
-                          href={`/blog/${slug}`}
+                          href={`/notes/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                           aria-label={`Read "${title}"`}
                         >
@@ -99,7 +100,7 @@ export default function Home({ posts }) {
       {posts.length > MAX_DISPLAY && (
         <div className="flex justify-end text-base font-medium leading-6">
           <Link
-            href="/blog"
+            href="/notes"
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label="all notes"
           >
