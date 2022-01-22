@@ -8,7 +8,7 @@ summary: 'According to Sir William Anson the law of contract is intended to ensu
 
 According to **Sir William Anson** the law of contract is intended to ensure that what a man has led to expect shall come to pass and what has been promised to him shall be performed.
 
-Law of Contract doesnot lay down a number of rights and duties which the law will enforce it consists of rather a number of limiting principles subject to which the parties nay create rights and duties for themselves which the law will uphold.
+Law of Contract doesnot lay down a number of rights and duties which the law will enforce it consists of rather a number of limiting principles subject to which the parties may create rights and duties for themselves which the law will uphold.
 
 **Case Law: `Roop Kumar vs Mohan Thedani (AIR 2003)`** - Importance of written contract was laid down.
 

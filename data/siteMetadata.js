@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/adityacodes/ulclawnotes',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/odisha.jpg',
+  socialBanner: '/static/images/ulcunofficial.png',
   email: 'address@ulc.com',
   github: 'https://github.com',
   twitter: 'https://twitter.com/Twitter',
