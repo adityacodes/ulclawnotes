@@ -53,7 +53,7 @@ From the point of view of contract it is of two kinds:
 1. Ordinary Contract
 2. Standard Form Contract
 
-In view of unequal bargaining power of two parties the courts have envolved following rules to _protect interest of weaker parties_:
+In view of unequal bargaining power of two parties the courts have envolved following rules to **_protect interest of weaker parties_**:
 
 1. Reasonable Notice
 2. Reasonable Terms of Contract
