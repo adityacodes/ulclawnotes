@@ -25,10 +25,9 @@ export default function Home({ posts }) {
             Hi, I’m ULC Unoffical !
           </h1>
           <h2 className="text-lg text-gray-600 dark:text-gray-400">
-            Welcome to the first unofficial notes web app of{' '}
-            <strong>University Law College, Bhubaneswar.</strong>
-            The purpose of creating this web app is to have a storehouse of all notes for semesters.
-            Hope you like it! Have a good read!
+            Welcome to the 1<sup>st</sup> unofficial notes web app of{' '}
+            <strong>University Law College, Bhubaneswar.</strong> We host curated study materials,
+            doubt clearing services and educational books. Hope you like it! Have a good read!
           </h2>
         </div>
       </div>
