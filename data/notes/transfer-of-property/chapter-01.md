@@ -1,7 +1,7 @@
 ---
-title: IPC-C01
+title: TPA-C01
 date: '2021-01-01'
-tags: ['ipc']
+tags: ['tpa']
 draft: false
 summary: 'Definitions and differences'
 ---

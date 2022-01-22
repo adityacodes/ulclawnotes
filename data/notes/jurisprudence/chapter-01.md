@@ -1,7 +1,7 @@
 ---
-title: IPC-C01
+title: JP-C01
 date: '2021-01-01'
-tags: ['ipc']
+tags: ['jurisprudence']
 draft: false
 summary: 'Definitions and differences'
 ---

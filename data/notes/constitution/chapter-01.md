@@ -1,7 +1,7 @@
 ---
-title: IPC-C01
+title: CONSTITUTION-C01
 date: '2021-01-01'
-tags: ['ipc']
+tags: ['constitution']
 draft: false
 summary: 'Definitions and differences'
 ---
