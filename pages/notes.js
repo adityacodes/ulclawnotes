@@ -19,7 +19,10 @@ export async function getStaticProps() {
 export default function Note({ posts, initialDisplayPosts, pagination }) {
   return (
     <>
-      <PageSEO title={`Note - ${siteMetadata.author}`} description={siteMetadata.description} />
+      <PageSEO
+        title={`All Notes - ${siteMetadata.headerTitle}`}
+        description={siteMetadata.description}
+      />
       <ListLayout
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}

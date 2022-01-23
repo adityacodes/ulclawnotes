@@ -5,7 +5,3 @@ tags: ['contract-law']
 draft: true
 summary: 'Small Description for C8'
 ---
-
-```js
-;`Underconstruction.`
-```

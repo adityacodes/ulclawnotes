@@ -6,8 +6,8 @@ draft: false
 summary: 'Section 2(b) of the Indian Contract Act says that the proposal is accepted only when the person to whom the proposal is made signifies his assent thereto, which makes the proposal deemed to be accepted.'
 ---
 
-```js
-;`Underconstruction.`
+```js:Underconstruction
+`Content Development In Progress`
 ```
 
 <TOCInline toc={props.toc} toHeading={3} asDisclosure />

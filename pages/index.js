@@ -39,7 +39,7 @@ export default function Home({ posts }) {
           <h3 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-4xl md:leading-14">
             Subjects
           </h3>
-          <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+          <div className="mt-6 pt-2 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
             {!subjectLinks.length && 'No subjects found.'}
             {subjectLinks.map((subject) => {
               const { title, desc, href, key } = subject
@@ -52,7 +52,7 @@ export default function Home({ posts }) {
                     {title}
                   </h2>
                   <p className="text-gray-700 dark:text-gray-100">
-                    {desc} |{' '}
+                    {desc} | {key} |{' '}
                     <Link
                       href={href}
                       className="text-primary-500 hover:text-primary-600 dark:text-primary-400"

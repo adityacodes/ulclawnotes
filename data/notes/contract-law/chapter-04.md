@@ -2,13 +2,9 @@
 title: CL-C04 - Consideration
 date: '2021-12-04'
 tags: ['contract-law']
-draft: false
+draft: true
 summary: ''
 ---
-
-```js
-;`Underconstruction.`
-```
 
 <TOCInline toc={props.toc} toHeading={3} asDisclosure />
 

@@ -2,13 +2,9 @@
 title: CL-C05 - Capacity to Contract
 date: '2021-12-05'
 tags: ['contract-law']
-draft: false
+draft: true
 summary: 'Definitions and differences'
 ---
-
-```js
-;`Underconstruction.`
-```
 
 <TOCInline toc={props.toc} toHeading={3} asDisclosure />
 

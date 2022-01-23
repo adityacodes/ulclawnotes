@@ -1,7 +1,11 @@
 ---
 title: TPA-C01
 date: '2021-01-01'
-tags: ['tpa']
+tags: ['TRANSFER-OF-PROPERTY']
 draft: false
 summary: 'Definitions and differences'
 ---
+
+```js:Underconstruction
+`Content Development In Progress`
+```

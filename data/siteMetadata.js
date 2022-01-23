@@ -1,8 +1,9 @@
 const siteMetadata = {
-  title: 'University Law College Notes',
+  title: 'University Law College - Unofficial',
   author: 'AP',
   headerTitle: 'ULC - Unofficial',
-  description: 'An unofficial platform to store all notes in one place.',
+  description:
+    'An unofficial platform to host curated study materials, doubt clearing services and educational books.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://ulclawnotes.vercel.app',
