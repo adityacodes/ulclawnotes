@@ -51,7 +51,7 @@ An agreement between a husband and a wife generally lacks the intention to creat
 `Jones v. Padavatton (1969)` - Extended above intention to other close relationships (between parents and children).
 
 <details>
-Case Details to be provided here... Later
+Case Details to be Updated.
 
 It was held that as the contract had not been reduced to writing not the duration which she was to be maintained had been mentioned => No intention to create legal relationship could be implied.
 
@@ -155,24 +155,32 @@ Strange consequences would flow if the above stated principle is negated - a cus
 
     Reply by Defendant: 'Lowest price for BHP is 900 pounds.'
 
-    Telegraph by Plaintiff: 'We agree to buy BHP for 900 pounds, adked by you. Please send us title deeds.'
+    Telegraph by Plaintiff: 'We agree to buy BHP for 900 pounds, asked by you. Please send us title deeds.'
 
     QUESTION: Whether the telegram message of the defendant amounted to an offer?
 
-    Privy council held that the defendant had replied only to the second question of the plaintiffs first telegraph. It amounted only to an invitation to treat, and the plaintiffs second telegram amounted only to an offer by plaintiff and not acceptance to an offer. For a binding contract there was a needed a further acceptance of this offer by the defendants.
+    Privy council held that the defendant had replied only to the second question of the plaintiffs first telegraph. It amounted only to an invitation to treat, and the plaintiffs second telegram amounted only to an offer by plaintiff and not acceptance to an offer. For a binding contract there was a need for a further acceptance of this offer by the defendants.
 
 </details>
 
 `Mac Pherson v. Appanna (AIR 1951 SC 184)` - For a binding contract an acceptance of offer is a must.
 
 <details>
-To be updated.
+- Plaintiff - Offered to pay Rs. 6000 to the defendant for his property.
+- He again wrote to the defendant's agent asking whether the earlier offer had been accepted.
+- He also offered to pay a higher price if found reasonable.
+- Agent replied that he wouldnot accept anything less than Rs. 10000
+- The plaintiff wrote that he was willing to pay Rs. 10000.
+- **It was held that** the agents letter only amounted to an invitation to treat and the defendant needed to accept the offer made by the plaintiffin the second letter in order to constitute a binding contract.
 </details>
 
 `Badri Prasad v. State of MP (AIR 1970 SC 76)` - Conditional acceptance of contract is no contract.
 
 <details>
-To be updated.
+- Forest officer wrote to the plaintiff to communicate whether he agreed to pay a further sumof Rs. 17000 for the contract of big trees.
+- Plaintiff replied that he agreed to pay provided that his earlier claim for a refund of Rs. 17000 was accepted.
+- **SC held that** first the FO's letter was a mere invitation to treat and secondly, even if it were considered to be an offer, the plaintiff's acceptance was conditional acceptance.
+- Hence there was no contract in any case.
 </details>
 
 4. ### General Offers
