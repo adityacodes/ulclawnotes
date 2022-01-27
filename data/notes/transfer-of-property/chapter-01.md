@@ -9,3 +9,5 @@ summary: 'Definitions and differences'
 ```js:Underconstruction
 `Content Development In Progress`
 ```
+
+![TPA](/static/subjects/tpa/TPA.svg)
