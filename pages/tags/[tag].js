@@ -46,10 +46,10 @@ export default function Tag({ posts, tag }) {
   return (
     <>
       <TagSEO
-        title={`${tag} - ${siteMetadata.author}`}
+        title={`${tag} - ${siteMetadata.author}`.toUpperCase()}
         description={`${tag} tags - ${siteMetadata.author}`}
       />
-      <ListLayout posts={posts} title={title} />
+      <ListLayout posts={posts} title={title.toUpperCase()} />
     </>
   )
 }

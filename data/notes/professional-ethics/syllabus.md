@@ -1,7 +1,7 @@
 ---
-title: PE - Syllabus (Sem-I)
+title: PE - (Sem-I)
 date: '2021-01-01'
-tags: ['professional-ethics', 'Semester-I']
+tags: ['professional-ethics', 'semester-I', 'syllabus']
 draft: false
 summary: 'Syllabus'
 ---

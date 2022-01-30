@@ -1,7 +1,7 @@
 ---
-title: IPC - Syllabus - (Sem - I)
+title: IPC - (Sem - I)
 date: '2021-01-01'
-tags: ['indian-penal-code', 'Semester-I']
+tags: ['indian-penal-code', 'semester-I', 'syllabus']
 draft: false
 summary: 'Syllabus'
 ---

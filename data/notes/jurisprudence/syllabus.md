@@ -1,7 +1,7 @@
 ---
-title: JP - Syllabus - (Sem - I)
+title: JP - (Sem - I)
 date: '2021-01-01'
-tags: ['jurisprudence', 'Semester-I']
+tags: ['jurisprudence', 'semester-I', 'syllabus']
 draft: false
 summary: 'Syllabus'
 ---

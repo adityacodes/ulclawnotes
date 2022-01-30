@@ -1,7 +1,7 @@
 ---
-title: CL - Syllabus
+title: CL Syllabus
 date: '2021-12-01'
-tags: ['contract-law']
+tags: ['contract-law', 'semester-I', 'syllabus']
 draft: false
 summary: 'Syllabus'
 ---

@@ -1,7 +1,7 @@
 ---
-title: Constitution - Syllabus - (Sem - I)
+title: Constitution - (Sem - I)
 date: '2021-01-01'
-tags: ['constitution', 'Semester-I']
+tags: ['constitution', 'semester-I', 'syllabus']
 draft: false
 summary: 'Syllabus'
 ---

@@ -1,5 +1,5 @@
 ---
-title: JP-C01
+title: JP-C01 - Nature and Value of Jurisprudence
 date: '2022-01-01'
 tags: ['jurisprudence']
 draft: false

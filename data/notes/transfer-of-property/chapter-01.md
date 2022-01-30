@@ -1,5 +1,5 @@
 ---
-title: TPA - Syllabus - (Sem - I)
+title: TPA - - (Sem - I)
 date: '2021-01-01'
 tags: ['TRANSFER-OF-PROPERTY']
 draft: false

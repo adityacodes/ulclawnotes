@@ -1,7 +1,7 @@
 ---
-title: TPA - Syllabus - (Sem - I)
+title: TPA - (Sem - I)
 date: '2021-01-01'
-tags: ['TRANSFER-OF-PROPERTY', 'Semester-I']
+tags: ['TRANSFER-OF-PROPERTY', 'semester-I', 'syllabus']
 draft: false
 summary: 'Syllabus'
 ---
