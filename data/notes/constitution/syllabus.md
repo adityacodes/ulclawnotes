@@ -6,6 +6,4 @@ draft: false
 summary: 'Syllabus'
 ---
 
-
-
 ![Constitution](/static/subjects/constitution/constitution-semester-I-syllabus.webp)
